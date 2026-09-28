@@ -1,0 +1,12 @@
+{
+  "name": "thirumal-housing",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node Backend/src/server.js",
+    "dev:backend": "node Backend/src/server.js",
+    "dev:frontend": "npm run dev --prefix Frontend",
+    "build": "npm run build --prefix Frontend"
+  }
+}
